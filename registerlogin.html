@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Nicholas's Home Delivered Groceries</title>
+
+</head>
+
+<body style="background-color:grey;">
+
+
+<h1>Welcome to Nicholas's Home Delivered Groceries</h1>
+
+
+<div>
+
+
+   
+ <p style="float: left;"><img src="logo.png" height="200px" width="200px" >
+
+</p>
+
+   
+<nav>
+
+<ul>
+
+<button type="button">
+
+<a href="home.html">Homepage</a>
+
+</button>  &nbsp &nbsp &nbsp &nbsp
+
+<button type="button">
+
+<a href="aboutus.html">About Us!  </a> 
+
+</button> 
+
+ &nbsp &nbsp &nbsp &nbsp
+
+<button type="button">
+
+<a href="products.html">Products</a> 
+</button> 
+
+&nbsp &nbsp &nbsp &nbsp
+
+<button type="button">
+
+<a href="registerlogin.html">Register & Login</a> 
+
+</button> 
+
+&nbsp &nbsp &nbsp &nbsp
+
+<button type="button">
+
+<a href="check.html">Checkout</a> 
+
+</button> 
+
+&nbsp &nbsp &nbsp &nbsp
+
+
+</ul>
+
+</nav>
+
+
+</div>
+
+<br>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br>
+
+<!-- heres the how I made the template for the pages where I float the logo, and have the page links at the top and space them with "&nbsp" -->
+
+<p style = "font-family:serif;font-size:30px;font-style:bold;">
+         Register
+      </p>
+
+
+
+
+<form method=post action=register.php>
+
+Enter username   &nbsp &nbsp &nbsp &nbsp &nbsp  <input type=text name=username>		<br>
+
+Enter password   &nbsp &nbsp &nbsp &nbsp &nbsp  <input type=text name=password>		<br>
+
+ConfirmPassword  &nbsp &nbsp &nbsp   <input type=text name=password>		<br>
+
+Enter Phonenumber   &nbsp  &nbsp  <input type=text name=phonenumber>		<br>
+
+Enter Email   &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp  <input type=text name=emailaddress>		<br>
+
+Enter Age  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input type=text name=age>		<br>
+
+
+<button>Register</button> <button type="button"><a href="update.html">update</a></button>
+</form>
+
+
+
+
+
+<!-- I used the form function to create the text entry for the registration, and repeat it below for the login -->
+
+<hr style="height:10px;border:none;color:#333;background-color:#333;">
+
+<p style = "font-family:serif;font-size:30px;font-style:bold;">
+         Login
+      </p>
+      
+      <form method=post action=login.php>
+      
+Enter username<input type=text name=username>		<br>
+
+Enter password<input type=text name=password>		<br>
+
+<button>Login</button>  <button type="button"><a href="logout.php">logout</a></button>
+</form>
+
+      
+      
+
+
+</body>
+
+</html>
